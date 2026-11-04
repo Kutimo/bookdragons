@@ -1,0 +1,42 @@
+/* Clamp tokens er hentet fra generatoren på utopia.fyi */
+
+:root {
+  --space-3xs: clamp(0.25rem, 0.1964rem + 0.1786vi, 0.375rem);
+  --space-2xs: clamp(0.5rem, 0.3929rem + 0.3571vi, 0.75rem);
+  --space-xs: clamp(0.75rem, 0.5893rem + 0.5357vi, 1.125rem);
+  --space-s: clamp(1rem, 0.7857rem + 0.7143vi, 1.5rem);
+  --space-m: clamp(1.5rem, 1.1786rem + 1.0714vi, 2.25rem);
+  --space-l: clamp(2rem, 1.5714rem + 1.4286vi, 3rem);
+  --space-xl: clamp(2.5rem, 1.9643rem + 1.7857vi, 3.75rem);
+  --space-2xl: clamp(3rem, 2.3571rem + 2.1429vi, 4.5rem);
+  --space-3xl: clamp(4rem, 3.1429rem + 2.8571vi, 6rem);
+  --space-4xl: clamp(5rem, 3.9286rem + 3.5714vi, 7.5rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.25rem, 0.0357rem + 0.7143vi, 0.75rem);
+  --space-2xs-xs: clamp(0.5rem, 0.2321rem + 0.8929vi, 1.125rem);
+  --space-xs-s: clamp(0.75rem, 0.4286rem + 1.0714vi, 1.5rem);
+  --space-s-m: clamp(1rem, 0.4643rem + 1.7857vi, 2.25rem);
+  --space-m-l: clamp(1.5rem, 0.8571rem + 2.1429vi, 3rem);
+  --space-l-xl: clamp(2rem, 1.25rem + 2.5vi, 3.75rem);
+  --space-xl-2xl: clamp(2.5rem, 1.6429rem + 2.8571vi, 4.5rem);
+  --space-2xl-3xl: clamp(3rem, 1.7143rem + 4.2857vi, 6rem);
+  --space-3xl-4xl: clamp(4rem, 2.5rem + 5vi, 7.5rem);
+
+  /* Two-up pairs */
+  --space-3xs-xs: clamp(0.25rem, -0.125rem + 1.25vi, 1.125rem);
+  --space-2xs-s: clamp(0.5rem, 0.0714rem + 1.4286vi, 1.5rem);
+  --space-xs-m: clamp(0.75rem, 0.1071rem + 2.1429vi, 2.25rem);
+  --space-s-l: clamp(1rem, 0.1429rem + 2.8571vi, 3rem);
+  --space-m-xl: clamp(1.5rem, 0.5357rem + 3.2143vi, 3.75rem);
+  --space-l-2xl: clamp(2rem, 0.9286rem + 3.5714vi, 4.5rem);
+  --space-xl-3xl: clamp(2.5rem, 1rem + 5vi, 6rem);
+  --space-2xl-4xl: clamp(3rem, 1.0714rem + 6.4286vi, 7.5rem);
+
+  /* Stack spacing */
+  --stack-space-xs: 0.33em;
+  --stack-space-s: 0.66em;
+  --stack-space-m: 1em;
+  --stack-space-l: 1.66em;
+  --stack-space-xl: 2.33em;
+}

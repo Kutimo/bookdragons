@@ -1,0 +1,29 @@
+:root {
+  --strichpunkt-sans: "Strichpunkt Sans", sans-serif;
+  --literata: "Literata", serif;
+  --google-sans-code: "Google Sans Code", monospace;
+  --momo-signature: "Momo Signature", cursive;
+
+  --text-font-family: var(--literata), system-ui, serif;
+  --display-font-family: var(--strichpunkt-sans), system-ui, sans-serif;
+  --mono-font-family: var(--google-sans-code), system-monospace, monospace;
+  --logo-font-family: var(--momo-signature);
+  --root-font-size: 16px;
+  --root-line-height: 1.5;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+  --font-weight-ultra: 800;
+
+  /* Typografiske størrelser er generert på utopia.fyi */
+  --step--2: clamp(0.64rem, 0.5029rem + 0.4571vi, 0.96rem);
+  --step--1: clamp(0.8rem, 0.6286rem + 0.5714vi, 1.2rem);
+  --step-0: clamp(1rem, 0.7857rem + 0.7143vi, 1.5rem);
+  --step-1: clamp(1.25rem, 0.9821rem + 0.8929vi, 1.875rem);
+  --step-2: clamp(1.5625rem, 1.2277rem + 1.1161vi, 2.3438rem);
+  --step-3: clamp(1.9531rem, 1.5346rem + 1.3951vi, 2.9297rem);
+  --step-4: clamp(2.4414rem, 1.9182rem + 1.7439vi, 3.6621rem);
+  --step-5: clamp(3.0518rem, 2.3978rem + 2.1798vi, 4.5776rem);
+  --step-6: clamp(3.8147rem, 2.9973rem + 2.7248vi, 5.722rem);
+  --step-7: clamp(4.7684rem, 3.7466rem + 3.406vi, 7.1526rem);
+}

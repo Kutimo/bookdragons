@@ -1,0 +1,21 @@
+.button {
+	display: inline-block;
+	padding: var(--space-2xs) var(--space-xs);
+	background-color: var(--link-text-color);
+	color: var(--site-background-color);
+	font-family: var(--display-font-family);
+	text-decoration: none;
+	text-align: center;
+	border-radius: var(--space-3xs);
+	font-weight: var(--font-weight-bold);
+	transition: background-color ease-out 120ms;
+
+	&:hover {
+		background-color: var(--link-text-color-hover);
+		color: var(--site-background-color);
+	}
+
+	&.block-button {
+		display: block;
+	}
+}

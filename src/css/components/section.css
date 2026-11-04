@@ -1,0 +1,25 @@
+.section {
+  padding: var(--space-xl) var(--space-s);
+  background-color: var(--section-background-color, var(--white));
+  border-bottom: 6px solid hsl(from var(--section-background-color) h s calc(l - 5));
+
+  &.section-yellow {
+    --section-background-color: var(--yellow);
+  }
+
+  &.section-blue {
+    --section-background-color: var(--sky-blue);
+  }
+
+  &.section-green {
+    --section-background-color: var(--light-green);
+  }
+
+  &.section-pink {
+    --section-background-color: var(--blush);
+  }
+
+  &.section-brown {
+    --section-background-color: var(--cedar);
+  }
+}

@@ -1,0 +1,21 @@
+.stack {
+	& > * + * {
+		margin-block-start: var(--stack-spacing, var(--stack-space-m));
+	}
+	
+	&.extra-large-spacing {
+		--stack-spacing: var(--stack-space-xl);
+	}
+
+	&.large-spacing {
+		--stack-spacing: var(--stack-space-l);
+	}
+
+	&.small-spacing {
+		--stack-spacing: var(--stack-space-s);
+	}
+
+	&.extra-small-spacing {
+		--stack-spacing: var(--stack-space-xs);
+	}
+}

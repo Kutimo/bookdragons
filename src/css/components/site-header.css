@@ -1,0 +1,27 @@
+.site-header {
+  container-name: site-header;
+  container-type: inline-size;
+  background-color: var(--white);
+  border-block-end: 1px solid var(--light-gray);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: var(--space-m);
+  font-family: var(--display-font-family);
+  margin-block-end: var(--space-xl);
+
+  nav {
+    display: flex;
+    gap: var(--space-s);
+  }
+
+  & > .logo {
+    margin-inline-end: auto;
+    font-family: var(--logo-font-family);
+    font-size: var(--step-1);
+  }
+
+  a:not(:hover) {
+    text-decoration: none;
+  }
+}

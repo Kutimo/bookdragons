@@ -1,0 +1,22 @@
+:root {
+  --white: #ffffff;
+  --black: #2d2e2f;
+  --light-gray: #edede9;
+  --ocean: #1a759f;
+  --cherry: #720026;
+  --watermelon: #bb3045;
+  --yellow: #ffe1a8;
+  --sky-blue: #bde0fe;
+  --light-green: #ccd5ae;
+  --blush: #fae1dd;
+  --cedar: #e6ccb2;
+
+	--site-background-color: var(--white);
+	--site-text-color: var(--black);
+  --site-muted-text-color: hsl(from var(--text-color) h s calc(l + 10));
+	--link-text-color: var(--watermelon);
+	--link-text-color-hover: var(--cherry);
+
+  --selection-background-color: var(--ocean);
+  --selection-text-color: var(--white);
+}

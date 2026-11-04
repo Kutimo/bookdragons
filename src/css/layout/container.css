@@ -1,0 +1,6 @@
+.container {
+	container-name: container;
+	container-type: inline-size;
+	inline-size: min(100%, 90rem);
+	margin-inline: auto;
+}

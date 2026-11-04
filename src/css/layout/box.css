@@ -1,0 +1,33 @@
+.box {
+  display: block;
+  padding: var(--space-s);
+  background-color: var(--box-background-color, transparent);
+
+  &.box-white {
+    --box-background-color: var(--white);
+  }
+
+  &.box-yellow {
+    --box-background-color: var(--yellow);
+  }
+
+  &.box-light-gray {
+    --box-background-color: var(--light-gray);
+  }
+
+  &.box-green {
+    --box-background-color: var(--light-green);
+  }
+
+  &.box-blue {
+    --box-background-color: var(--sky-blue);
+  }
+
+  &.box-pink {
+    --box-background-color: var(--blush);
+  }
+
+  &.box-brown {
+    --box-background-color: var(--cedar);
+  }
+}

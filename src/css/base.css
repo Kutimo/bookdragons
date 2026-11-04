@@ -1,0 +1,18 @@
+:root {
+	font-family: var(--text-font-family);
+	font-size: var(--root-font-size);
+	line-height: var(--root-line-height);
+	background-color: var(--site-background-color);
+	color: var(--site-text-color);
+	scrollbar-color: var(--site-text-color) transparent;
+}
+
+body {
+	font-size: var(--step-0);
+	padding: var(--space-xs-m);
+}
+
+main {
+	container-name: main;
+	container-type: inline-size;
+}

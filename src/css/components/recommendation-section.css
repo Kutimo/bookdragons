@@ -1,0 +1,30 @@
+.recommendation-section {
+  padding-block: var(--space-xl);
+  align-items: start;
+
+  & + & {
+    border-block-start: 0.1em solid hsl(from var(--section-background-color) h s calc(l - 10));
+  }
+
+  @container (width >= 50rem) {
+    &.product-on-left {
+      .recommendation-section-product {
+        order: 1;
+      }
+
+      .recommendation-section-text {
+        order: 2;
+      }
+    }
+
+    &.product-on-right {
+      .recommendation-section-product {
+        order: 2;
+      }
+
+      .recommendation-section-text {
+        order: 1;
+      }
+    }
+  }
+}

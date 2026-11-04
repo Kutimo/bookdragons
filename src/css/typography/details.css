@@ -1,0 +1,29 @@
+details {
+	display: block;
+	border: 0.15rem solid var(--site-text-color);
+	height: calc(1lh + (var(--space-s) * 2));
+	transition: height 250ms ease-out;
+
+	&[open] {
+		height: auto;
+		overflow: clip;
+	}
+	
+	summary {
+		font-family: var(--display-font-family);
+		cursor: pointer;
+		padding: var(--space-s);
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	& > * {
+		padding: var(--space-s);
+	}
+
+	& > * + * {
+		padding-block-start: 0;
+	}
+}

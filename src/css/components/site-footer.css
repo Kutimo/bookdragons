@@ -1,0 +1,15 @@
+.site-footer {
+  container-name: site-footer;
+  container-type: inline-size;
+  background-color: var(--white);
+  border-block-start: 1px solid var(--light-gray);
+  padding: var(--space-m);
+  font-family: var(--display-font-family);
+  margin-block-start: var(--space-xl);
+  text-align: center;
+  font-size: var(--step--1);
+
+  & > * {
+    margin-inline: auto;
+  }
+}

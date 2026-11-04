@@ -1,0 +1,13 @@
+.flex-stack {
+  display: flex;
+  flex-flow: column wrap;
+  gap: var(--gap, var(--space-s));
+  
+  &.large-gap {
+    --gap: var(--space-m);
+  }
+
+  &.small-gap {
+    --gap: var(--space-xs);
+  }
+}

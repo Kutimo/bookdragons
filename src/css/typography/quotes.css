@@ -1,0 +1,24 @@
+.big-quote {
+	font-size: var(--step-2);
+	font-style: italic;
+	padding-block: var(--space-m);
+	padding-inline-end: var(--space-l);
+	padding-inline-start: var(--space-xl);
+	margin: 0;
+	position: relative;
+
+	&::before {
+		content: "‟";
+		position: absolute;
+		font-size: 3em;
+		font-style: normal;
+		inset-block-start: 0;
+		inset-inline-start: 0;
+		color: var(--gray-border);
+	}
+}
+
+.multiline-quote {
+	border-inline-start: 0.15em solid currentColor;
+	padding-inline: var(--space-s);
+}

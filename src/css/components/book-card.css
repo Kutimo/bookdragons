@@ -1,0 +1,47 @@
+.book-card {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 16rem 1fr auto;
+  gap: var(--space-s);
+  align-content: start;
+
+  .book-card-title a:not(:hover) {
+    text-decoration: none;
+  }
+  
+  .book-card-cover {
+    margin-inline: auto;
+    block-size: 16rem;
+    object-fit: contain;
+  }
+
+  .book-card-tags {
+    font-family: var(--display-font-family);
+    font-size: 0.8em;
+    --cluster-spacing: 0.4em;
+  }
+
+  .button {
+    align-self: end;
+  }
+
+  &.interactive {
+    transition-property: transform box-shadow;
+    transition-duration: 120ms;
+    transition-timing-function: ease-out;
+
+    &:hover {
+      box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+      transform: translateY(-5px);
+    }
+  }
+}
+
+.reel > .book-card {
+  flex-basis: 30ch;
+  scroll-snap-align: start;
+
+  @container reel (width < 50rem) {
+    flex-basis: 100%;
+  }
+}

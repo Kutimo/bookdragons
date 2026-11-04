@@ -1,0 +1,9 @@
+a {
+	color: inherit;
+	text-decoration-thickness: 0.1em;
+	text-decoration-color: var(--link-text-color);
+
+	&:hover {
+		text-decoration-color: var(--link-text-color-hover);
+	}
+}

@@ -1,0 +1,18 @@
+.reel {
+	container-name: reel;
+	container-type: inline-size;
+	display: flex;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding-block: var(--space-s);
+	scrollbar-color: inherit transparent;
+	flex: column nowrap;
+	gap: var(--space-s);
+	scroll-snap-stop: always;
+	scroll-snap-type: x mandatory;
+
+	& > * {
+		flex-shrink: 0;
+		flex-basis: auto;
+	}
+}

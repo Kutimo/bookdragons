@@ -1,0 +1,14 @@
+.t-ff-text { font-family: var(--text-font-family); }
+.t-ff-display { font-family: var(--display-font-family); }
+.t-ff-mono { font-family: var(--mono-font-family); }
+
+.t-step--2 { font-size: var(--step--2); }
+.t-step--1 { font-size: var(--step--1); }
+.t-step-0 { font-size: var(--step-0); }
+.t-step-1 { font-size: var(--step-1); }
+.t-step-2 { font-size: var(--step-2); }
+.t-step-3 { font-size: var(--step-3); }
+.t-step-4 { font-size: var(--step-4); }
+.t-step-5 { font-size: var(--step-5); }
+.t-step-6 { font-size: var(--step-6); }
+.t-step-7 { font-size: var(--step-7); }

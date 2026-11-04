@@ -1,0 +1,25 @@
+:not(:is(nav, header)) > :is(ul, ol) {
+	margin-inline: 0;
+	padding-inline-start: 1em;
+
+	&:is(ul) {
+		list-style-type: square;
+	}
+
+	&:is(ol) {
+		list-style-type: decimal;
+	}
+
+	li {
+		padding-inline-start: 0.5em;
+	}
+}
+
+dt {
+	font-family: var(--display-font-family);
+	font-weight: 600;
+
+	dd + & {
+		margin-block-start: 1em;
+	}
+}

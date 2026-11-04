@@ -1,0 +1,15 @@
+.employee-card {
+  .employee-card-photo {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 100vb;
+    margin-inline: auto;
+    inline-size: 16rem;
+    block-size: 16rem;
+    object-position: top left;
+
+    & + * {
+      --stack-spacing: var(--space-xl);
+    }
+  }
+}

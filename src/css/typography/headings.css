@@ -1,0 +1,85 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--display-font-family);
+	line-height: 1.1;
+}
+
+h1 {
+	font-size: var(--step-5);
+	font-weight: 800;
+}
+
+h2 {
+	font-size: var(--step-4);
+	font-weight: 800;
+}
+
+h3 {
+	font-size: var(--step-3);
+}
+
+h4 {
+	font-size: var(--step-2);
+}
+
+.page-title {
+	font-size: var(--step-7);
+	font-weight: 900;
+	letter-spacing: -0.02em;
+	text-wrap: balance;
+	text-align: center;
+
+	@container (width < 50rem) {
+		font-size: var(--step-6);
+	}
+}
+
+.page-subtitle {
+	font-size: var(--step-2);
+	font-weight: 400;
+	font-family: var(--text-font-family);
+	font-style: italic;
+	line-height: 1.5;
+	text-wrap: balance;
+	text-align: center;
+
+	@container (width < 50rem) {
+		font-size: var(--step-1);
+	}
+}
+
+.sidebar-title {
+	font-size: var(--step-1);
+	font-weight: var(--font-weight-bold);
+	line-height: 1.1;
+	text-wrap: balance;
+}
+
+.sidebar-subtitle {
+	font-size: var(--step-0);
+	font-weight: var(--font-weight-normal);
+	line-height: 1.1;
+	color: var(--site-muted-text-color);
+}
+
+.section-heading {
+	font-size: var(--step-2);
+	font-weight: var(--font-weight-bold);
+	color: var(--watermelon);
+}
+
+.section-subheading {
+	font-size: var(--step-1);
+	font-weight: var(--font-weight-bold);
+	color: var(--cherry);
+}
+
+.eyebrow-heading {
+	font-size: var(--step-0);
+	font-weight: var(--font-weight-bold);
+	color: currentColor;
+}

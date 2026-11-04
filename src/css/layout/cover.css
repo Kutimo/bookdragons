@@ -1,0 +1,11 @@
+.cover {
+	display: grid;
+	container-name: cover;
+	container-type: inline-size;
+	place-items: center;
+	min-block-size: 100vi;
+
+	> * {
+		max-inline-size: 80rem;
+	}
+}
